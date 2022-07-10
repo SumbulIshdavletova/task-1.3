@@ -2,7 +2,7 @@ package task2
 
 fun main() {
 
-    var commissionAmount = calculateCommission("Visa", 0, 400)
+    var commissionAmount = calculateCommission("Maestro", 5, 40000)
     println("Комиссия равна: $commissionAmount")
 
 }
